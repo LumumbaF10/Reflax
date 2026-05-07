@@ -1,0 +1,152 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  padding: 1.4rem 0;
+  transition: all 0.35s ease;
+}
+
+.scrolled {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(12px);
+  padding: 1rem 0;
+  box-shadow: 0 2px 24px rgba(42, 159, 201, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.logoIcon {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--blue-deep);
+  font-family: 'Poppins', monospace;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Volkhov', serif;
+  color: var(--text-dark);
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-left: auto;
+}
+
+.links a {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-mid);
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: var(--blue-deep);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-shrink: 0;
+}
+
+.loginBtn {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-mid);
+  transition: color 0.2s;
+}
+
+.loginBtn:hover {
+  color: var(--blue-deep);
+}
+
+.signupBtn {
+  background: var(--blue-deep);
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.25s;
+  box-shadow: 0 4px 14px rgba(42, 159, 201, 0.35);
+}
+
+.signupBtn:hover {
+  background: var(--blue-mid);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(42, 159, 201, 0.45);
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  margin-left: auto;
+}
+
+.burger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text-dark);
+  border-radius: 2px;
+  transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+  .links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    gap: 1.2rem;
+  }
+
+  .links.open {
+    display: flex;
+  }
+
+  .actions {
+    display: none;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav {
+    position: relative;
+  }
+}
