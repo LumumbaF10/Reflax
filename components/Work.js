@@ -1,13 +1,5 @@
 import styles from './Work.module.css'
-import Image from 'next/image'
 
-<Image 
-  src={p.screenshot} 
-  alt={p.title} 
-  className={styles.screenshot}
-  width={400}
-  height={300}
-/>
 
 const projects = [
   {
