@@ -9,7 +9,7 @@ const projects = [
     desc: 'Fashion E-comerce site',
     color: '#e8f6fb',
     emoji: '',
-    screenshot: '/images/asili-studios.png',
+    screenshot: 'images/asili-studios.png',
     link: '#',
   },
   {
