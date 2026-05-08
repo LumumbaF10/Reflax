@@ -8,7 +8,7 @@ const projects = [
     desc: 'Fashion E-comerce site',
     color: '#e8f6fb',
     emoji: '',
-    screenshot: 'public/images/asili-studios.png',
+    screenshot: '/images/asili-studios.png',
     link: '#',
   },
   {
@@ -18,7 +18,7 @@ const projects = [
     desc: 'Landing page for CBO',
     color: '#fff5f3',
     emoji: '',
-    screenshot: 'public/images/vyema.png',
+    screenshot: '/images/vyema.png',
     link: 'https://vyema001.github.io/vyemacommunity./',
   },
   {
@@ -28,7 +28,7 @@ const projects = [
     desc: 'Landing page for software solution company',
     color: '#f0fff4',
     emoji: '',
-    screenshot: 'public/images/Reflax.png',
+    screenshot: '/images/Reflax.png',
     link: '#',
   },
 ]
