@@ -19,7 +19,7 @@ const projects = [
     desc: 'Landing page for CBO',
     color: '#fff5f3',
     emoji: '',
-    screenshot: '/images/vyema.png',
+    screenshot: 'images/vyema.png',
     link: 'https://vyema001.github.io/vyemacommunity./',
   },
   {
@@ -29,7 +29,7 @@ const projects = [
     desc: 'Landing page for software solution company',
     color: '#f0fff4',
     emoji: '',
-    screenshot: '/images/Reflax.png',
+    screenshot: 'images/Reflax.png',
     link: '#',
   },
 ]
